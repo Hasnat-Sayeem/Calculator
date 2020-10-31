@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Calculator Made by <a href="https://www.facebook.com/Sayem74"target="blank"><span class="sayem" >Sayem</span></a> </h2>
+    <div class="cal-body">  
+         <input type="text" class="box" id="result">
+
+    <div class="button">
+        <input type="button" class="btn" value="C"  onclick="clearall ()">
+        <input type="button" class="btn" value="+/-" onclick="absul()" >
+        <input type="button" class="btn" value="%" onclick="insertnum('%')">
+        <input type="button" class="btn blu" value="/" onclick="insertnum('/')">
+    </div>
+    <div class="button">
+        <input type="button" class="btn" value="7" onclick="insertnum(7)">
+        <input type="button" class="btn" value="8" onclick="insertnum(8)">
+        <input type="button" class="btn" value="9" onclick="insertnum(9)">
+        <input type="button" class="btn blu" value="X" onclick="insertnum('*')">
+    </div>
+    <div class="button">
+        <input type="button" class="btn" value="4" onclick="insertnum(4)"> 
+        <input type="button" class="btn" value="5" onclick="insertnum(5)">
+        <input type="button" class="btn" value="6" onclick="insertnum(6)">
+        <input type="button" class="btn blu" value="-" onclick="insertnum('-')">
+    </div>
+    <div class="button">
+        <input type="button" class="btn" value="1" onclick="insertnum(1)">
+        <input type="button" class="btn" value="2" onclick="insertnum(2)">
+        <input type="button" class="btn" value="3" onclick="insertnum(3)">
+        <input type="button" class="btn blu" value="+" onclick="insertnum('+')">
+    </div>
+    <div class="button" id="lastline">
+        <input type="button" class="btn" value="0" onclick="insertnum(0)">
+        <input type="button" class="btn"  value="." onclick="insertnum('.')">
+        <input type="button" class="btn" value="DEL" onclick="deletnum()">
+        <input type="button" class="btn blue" value="=" onclick="finalresult()">
+    </div>
+
+
+</div>
+
+
+
+    
+     <script src="java.js"></script>
+</body>
+</html>
